@@ -223,9 +223,6 @@ void trigonometric() {
     }
 }
 
-
-/* ================= MORE FUNCTIONS ================= */
-
 void leapYear() {
     printf("\nThis is Leap Year function..\n");
 
@@ -501,4 +498,3 @@ int main() {
 
     return 0;
 }
-
