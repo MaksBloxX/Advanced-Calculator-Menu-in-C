@@ -1,4 +1,4 @@
-name: C Calculator CI
+name: C/C++ CI
 
 on:
   push:
@@ -15,7 +15,7 @@ jobs:
       uses: actions/checkout@v4
 
     - name: Compile
-      run: gcc calculator.c -o calculator -lm
+      run: gcc "Advanced Calculator Menu.c" -o calculator -lm
 
     - name: Build successful
-      run: echo "C Calculator compiled successfully!"
+      run: echo "Advanced C Calculator compiled successfully!"
